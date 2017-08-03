@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>火狐</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #0096dd;
+        }
+        #fox{
+            width: 156px;
+            height: 156px;
+            margin: 100px auto;
+            background: url("images/foxtail.png") no-repeat;
+            animation: tail 3.75s steps(44) infinite;
+        }
+        @keyframes tail {
+            0%{ background-position: -6864px , 0 }
+            100%{ background-position: 0 , 0 }
+        }
+    </style>
+</head>
+<body>
+    <div id="fox"></div>
+</body>
+</html>
